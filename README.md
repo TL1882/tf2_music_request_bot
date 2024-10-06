@@ -13,5 +13,6 @@ make sure to edit paths in part2 and part3
   vlc
 
 # downloading and running:
-  download all 3 parts\n
+  download all 3 parts
+  
   run part1 and part2 in 2 separate cmd windows
