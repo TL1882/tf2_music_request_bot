@@ -43,7 +43,8 @@ def contains(text, all_chat):
             chat_list.append(chat)
     return chat_list
     
-#idk man wtf
+#above code is from tf2 console log parser
+#below code is regex stuff to get only the request (needs updating to prevent messages that have the command in the middle of the message messing things up)
 while True:
     txt = str(contains(";play ", parse_console("C:\\Program Files (x86)\\Steam\\steamapps\\common\\Team Fortress 2\\tf\\console.log")))
     txt = str(re.sub("^\[", "", txt))
