@@ -1,4 +1,6 @@
 # tf2_music_request_bot
+
+##**(WINDOWS ONLY)**
 scripts to play music from youtube through vlc when someone sends a message starting with ;play in tf2 chat
 
 make sure to edit paths in part2 and part3
