@@ -6,10 +6,13 @@ make sure to edit paths in part2 and part3
 # requires:
 ## python libraries:
   subprocess
+  
   glob
+  
   youtube_search
 ## applications:
   yt-dlp
+  
   vlc
 
 # downloading and running:
