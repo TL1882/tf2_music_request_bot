@@ -8,10 +8,10 @@ make sure to edit paths in part2 and part3
   subprocess
   glob
   youtube_search
-## applications
+## applications:
   yt-dlp
   vlc
 
-download all 3 parts
-
-run part1 and part2 in 2 separate cmd windows
+# downloading and running:
+  download all 3 parts\n
+  run part1 and part2 in 2 separate cmd windows
