@@ -3,13 +3,15 @@ scripts to play music from youtube through vlc when someone sends a message star
 
 make sure to edit paths in part2 and part3
 
-requires:
-  python libraries:
-    subprocess
-    glob
-    youtube_search
-  applications
-    yt-dlp
-    vlc
+# requires:
+## python libraries:
+  subprocess
+  glob
+  youtube_search
+## applications
+  yt-dlp
+  vlc
+
+download all 3 parts
 
 run part1 and part2 in 2 separate cmd windows
