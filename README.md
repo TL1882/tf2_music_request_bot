@@ -15,7 +15,7 @@ scripts to play audio from youtube through vlc when someone sends a message star
   
   vlc
 
-# downloading and running:
+# setup:
 
   add -condebug to tf2 launch options
   
