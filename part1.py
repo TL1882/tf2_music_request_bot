@@ -48,9 +48,11 @@ def contains(text, all_chat):
 while True:
     txt = str(contains(";play ", parse_console("C:\\Program Files (x86)\\Steam\\steamapps\\common\\Team Fortress 2\\tf\\console.log")))
     txt = str(re.sub("', '", "']\n['", txt))
+    #logging every request
     f = open("log.txt", "a")
     print(txt, file=f)
     f.close()
+    
     txt = str(re.sub("^\[", "", txt))
     txt = str(re.sub("\]\n", "\n", txt))
     txt = str(re.sub("\]$", "", txt))
