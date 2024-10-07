@@ -3,7 +3,7 @@
 ## **(WINDOWS ONLY)**
 scripts to play audio from youtube through vlc when someone sends a message starting with ;play in tf2 chat
 
-# requires:
+# requirements
 ## python libraries:
   subprocess
   
